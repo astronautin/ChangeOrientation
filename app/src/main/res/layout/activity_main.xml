@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+<GridLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="30dp"
+    android:useDefaultMargins="true"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:columnCount="2"
+    android:rowCount="2"
+    >
+
+    <ImageButton
+        android:id="@+id/id_toLandscape"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/tolandscape"
+        android:layout_marginRight="100dp"
+        />
+    <ImageButton
+        android:id="@+id/id_toLandscape_m"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/tolandscape_m"
+        />
+
+    <ImageButton
+        android:id="@+id/id_toPortrait"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/toportrait"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="100dp"
+        />
+
+    <ImageButton
+        android:id="@+id/id_toPortrait_m"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/toportrait_m"
+        android:layout_marginTop="100dp"
+
+
+        />
+
+</GridLayout>
+
+</RelativeLayout>
+
+<!--<LinearLayout-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:orientation="vertical"-->
+<!--android:gravity="center"-->
+<!--android:layout_centerHorizontal="true"-->
+<!--tools:context=".MainActivity">-->
+
+<!--<ImageButton-->
+<!--    android:id="@+id/id_toLandscape"-->
+<!--    android:layout_width="100dp"-->
+<!--    android:layout_height="100dp"-->
+<!--    android:background="@drawable/tolandscape"-->
+<!--    android:layout_marginTop="30dp"-->
+<!--    />-->
+
+<!--<ImageButton-->
+<!--    android:id="@+id/id_toPortrait"-->
+<!--    android:layout_width="100dp"-->
+<!--    android:layout_height="100dp"-->
+<!--    android:background="@drawable/toportrait"-->
+<!--    android:layout_marginTop="100dp"-->
+<!--    />-->
+
+<!--</LinearLayout>-->
+
+
