@@ -23,32 +23,32 @@
         android:id="@+id/id_toLandscape"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="@drawable/tolandscape"
+        android:background="@drawable/dirkunddanniplus90"
         android:layout_marginRight="100dp"
         />
-    <ImageButton
-        android:id="@+id/id_toLandscape_m"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@drawable/tolandscape_m"
-        />
-
     <ImageButton
         android:id="@+id/id_toPortrait"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="@drawable/toportrait"
-        android:layout_marginRight="100dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/dirkunddanni"
         />
 
     <ImageButton
-        android:id="@+id/id_toPortrait_m"
+        android:id="@+id/id_toLandscapeReverse"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="@drawable/toportrait_m"
         android:layout_marginTop="100dp"
-
+        android:background="@drawable/dirkunddanniplus270"
+        android:layout_marginRight="100dp"
+        />
+    <ImageButton
+        android:id="@+id/id_toPortraitReverse"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/dirkunddanniplus180"
+        />
 
         />
 
